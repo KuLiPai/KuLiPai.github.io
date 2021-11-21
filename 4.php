@@ -1,5 +1,5 @@
 <?php
-$upload_path = $_SERVER['DOCUMENT_ROOT']."/a/";
+$upload_path = $_SERVER['DOCUMENT_ROOT']."/";
 $dest_file = $upload_path.basename($_FILES['myfile']['name']);
 
 if(move_uploaded_file($_FILES['myfile']['tmp_name'],$dest_file)){
