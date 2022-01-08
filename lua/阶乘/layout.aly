@@ -1,6 +1,0 @@
-{
-  LinearLayout;
-  layout_height="fill";
-  layout_width="fill";
-  orientation="vertical";
-};
